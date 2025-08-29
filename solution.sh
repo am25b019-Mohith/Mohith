@@ -4,7 +4,7 @@
 sort -n numbers.txt
 
 #2. Print the IP address of the machine
-hostname -I
+ipconfig getifaddr en0
 
 #3. Show the contents of a file named "readme.txt" in the current directory
 cat readme.txt
@@ -34,4 +34,4 @@ ps aux --sort=-%mem
 find / -type d -name "backup"
 
 #12. Replace every occurrence of "foo" with "bar" in "example.txt" and save to "new_example.txt"
-sed 's/foo/bar/g' example.txt > new_example.txt
+sed "s/foo/bar/g" example.txt > new_example.txt
