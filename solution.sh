@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 1. Sort the contents of "numbers.txt" in ascending order
-sort -n numbers.txt
+sort numbers.txt
 
 #2. Print the IP address of the machine
 ipconfig getifaddr en0
